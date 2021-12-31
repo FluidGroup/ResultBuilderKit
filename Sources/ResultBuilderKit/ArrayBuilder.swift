@@ -1,4 +1,8 @@
 
+public func buildArray<T>(@ArrayBuilder<T> _ build: () -> [T]) -> [T] {
+  build()
+}
+
 @resultBuilder
 public struct ArrayBuilder<Element> {
 
