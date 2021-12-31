@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Test ResultBuilderKit",
+      "program": "/Applications/Xcode-13.2.0-release-candidate.app/Contents/Developer/usr/bin/xctest",
+      "args": [
+        ".build/debug/ResultBuilderKitPackageTests.xctest"
+      ],
+      "cwd": "${workspaceFolder:ResultBuilderKit}",
+      "preLaunchTask": "swift: Build All"
+    }
+  ]
+}
