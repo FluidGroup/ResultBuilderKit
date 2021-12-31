@@ -1,3 +1,5 @@
 # ResultBuilderKit
 
-A description of this package.
+## ArrayBuilder
+
+To create an array from blocks and expressions
