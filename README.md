@@ -17,3 +17,12 @@ let array: [MyElement] = buildArray {
   
 }
 ```
+
+or 
+```swift
+
+func doSomething(@ArrayBuilder<String> _ value: () -> [String]) {
+  let array: [String] = value()
+  ...
+}
+```
