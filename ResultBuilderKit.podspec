@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = "9.0"
 
   spec.source = { :git => "https://github.com/muukii/ResultBuilderKit.git", :tag => "#{spec.version}" }
-  spec.source_files = "ResultBuilderKit/**/*.swift"  
+  spec.source_files = "Sources/ResultBuilderKit/**/*.swift"  
   spec.requires_arc = true
   spec.swift_versions = ["5.3", "5.4", "5.5"]
 end
