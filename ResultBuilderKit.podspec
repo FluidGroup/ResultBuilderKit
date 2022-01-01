@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name = "ResultBuilderKit"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "A set of result-builders"
   spec.description = <<-DESC
   This library provides a set of result-builders
