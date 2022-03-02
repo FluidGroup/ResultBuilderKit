@@ -1,5 +1,5 @@
 
-public func buildArray<T>(@ArrayBuilder<T> _ build: () -> [T]) -> [T] {
+public func buildArray<T>(elementType: T.Type? = nil, @ArrayBuilder<T> _ build: () -> [T]) -> [T] {
   build()
 }
 
