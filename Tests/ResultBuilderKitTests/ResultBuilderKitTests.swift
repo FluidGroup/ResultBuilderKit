@@ -7,5 +7,14 @@ final class ResultBuilderKitTests: XCTestCase {
     _ = buildArray(elementType: String.self) {
       ""
     }
+    
+    _ = buildArray(elementType: String.self) {
+      switch 1 {
+      case 1:
+        ""
+      default:
+        ""
+      }
+    }
   }
 }
